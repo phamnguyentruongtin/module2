@@ -98,6 +98,8 @@ public class ProductsController {
                 case 5:
                     search();
                     break;
+                case 6:
+                    System.exit(6);
                 default:
                     System.out.println("Please enter the correct function");
             }
