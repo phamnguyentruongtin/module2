@@ -1,48 +1,54 @@
 package projectmodule2.ss9.baitapthem1.Controller;
 
-import projectmodule2.ss9.baitapthem1.Model.Student;
-import projectmodule2.ss9.baitapthem1.Model.Teacher;
+
+import projectmodule2.ss9.baitapthem1.Services.IServices;
+import projectmodule2.ss9.baitapthem1.Services.Services;
 
 
 import java.util.Scanner;
 
 public class StudentManager {
 
-    public static Student student = new Student();
-    public static Teacher teacher = new Teacher();
-    public static  Scanner sc = new Scanner(System.in);
+    public static Scanner sc = new Scanner(System.in);
+    static IServices services = new Services();
+
     public static void main(String[] args) {
-        int selectChoice =0;
+        int selectChoice = 0;
         do {
             System.out.println("--CHƯƠNG TRÌNH QUẢN LÝ SINH VIÊN –");
-            System.out.println("1 hoặc 4 hoac Thêm mới giảng viên hoặc học sinh");
-            System.out.println("2.hoặc 5 Xóa giảng viên hoặc học sinh");
-            System.out.println("3.hoặc 6 Xem danh sách giảng viên hoặc học sinh");
-            System.out.println("7. Thoát");
-            System.out.println("Chọn chức năng:");
+            System.out.println("1 Thêm mới học sinh");
+            System.out.println("2.Thêm mới giảng viên");
+            System.out.println("3.Xóa học sinh");
+            System.out.println("4 xóa giảng viên");
+            System.out.println("5 hiển thị học sinh");
+            System.out.println("6 hiển thị giảng viên");
+            System.out.println("7 Thoát chưa trình");
+            System.out.println("-----Vui Lòng Chọn Chức Năng-----");
             selectChoice = Integer.parseInt(sc.nextLine());
             switch (selectChoice) {
                 case 1:
-                    student.add();
+                    services.addStudent();
                     break;
                 case 2:
-                    student.remove();
+                    services.addTeachers();
                     break;
                 case 3:
-                    student.display();
+                    services.removeStuden();
                     break;
                 case 4:
-                    teacher.add();
+                    services.removeTeacher();
                     break;
                 case 5:
-                    teacher.remove();
+                    services.displayStudent();
                     break;
                 case 6:
-                    teacher.display();
+                    services.displayTeacher();
                     break;
+                default:
+                    System.out.println("vui lòng nhập đúng chức năng");
             }
 
-        } while (selectChoice != 7);
+        } while (selectChoice < 7 || selectChoice > 0);
 
     }
 }

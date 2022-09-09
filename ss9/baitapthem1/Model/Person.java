@@ -48,9 +48,7 @@ public abstract  class Person {
     public void setSex(String sex) {
         this.sex = sex;
     }
-    public abstract void add();
-    public abstract void remove();
-    public abstract void display();
+
     @Override
     public String toString() {
         return "Person{" +
