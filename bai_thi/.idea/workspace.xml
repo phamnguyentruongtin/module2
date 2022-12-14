@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f6af92b0-7711-437a-a3f9-122e08bfc7de" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exception/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/DienThoai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/DienThoaiChinhHang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/DienThoaiXachTay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repo/IRepostory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repo/Repostory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repo/data.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/IServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/Services.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultil/FileHelperBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_thi_lai/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_thi_lai/exception/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_thi_lai/model/BenhAn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_thi_lai/model/BenhAnDacBiet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_thi_lai/model/BenhAnThuong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_thi_lai/repo/IRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_thi_lai/repo/Repo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_thi_lai/repo/data_record.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_thi_lai/service/IService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_thi_lai/service/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_thi_lai/ulti/FileHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_thi_lai/validator/Validate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caseStudy/Services/CustomerServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caseStudy/Services/EmployeeServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caseStudy/Services/FacilityServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caseStudy/Services/IBookingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caseStudy/Services/IContactService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caseStudy/Services/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caseStudy/Services/IEmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caseStudy/Services/IFacilityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caseStudy/exception/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caseStudy/ulti/Customer.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caseStudy/ulti/Employee.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caseStudy/ulti/FileHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc_ghi_file/FileHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../formatvalidatethankhao/ValidateThamKhao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quan_ly_internet_cong_dong/controller/InternetCongCongController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quan_ly_internet_cong_dong/exception/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quan_ly_internet_cong_dong/model/PhongMay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quan_ly_internet_cong_dong/model/PhongMayCouple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quan_ly_internet_cong_dong/model/PhongMayStreamers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quan_ly_internet_cong_dong/model/PhongMayThuong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quan_ly_internet_cong_dong/repo/CoupleFile.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quan_ly_internet_cong_dong/repo/IRepoCouple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quan_ly_internet_cong_dong/repo/IRepoNormal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quan_ly_internet_cong_dong/repo/IRepoStreamer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quan_ly_internet_cong_dong/repo/NormalFile.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quan_ly_internet_cong_dong/repo/RepoCouple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quan_ly_internet_cong_dong/repo/RepoNormal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quan_ly_internet_cong_dong/repo/RepoStreamer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quan_ly_internet_cong_dong/repo/StreamerFile.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quan_ly_internet_cong_dong/services/IServicePhongMayCouple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quan_ly_internet_cong_dong/services/IServicePhongMayStreamer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quan_ly_internet_cong_dong/services/IServicesPhongMayThuong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quan_ly_internet_cong_dong/services/ServicePhongMayCouple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quan_ly_internet_cong_dong/services/ServicePhongMayStreamer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quan_ly_internet_cong_dong/services/ServicePhongMayThuong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quan_ly_internet_cong_dong/ultil/FIleHelperInternet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quan_ly_internet_cong_dong/validator/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss12/TImChuoiCoDoDaiLonNhat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss12/TimChuoiLienTiepCoDoDaiLonNhat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss12/TimKiemNhiPhanSudungDeQuy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss12/bai_tap_them/controller/MyHomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss12/bai_tap_them/data/TIn.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss12/bai_tap_them/model/Myhome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss12/bai_tap_them/model/Tang1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss12/bai_tap_them/model/Tang2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss12/bai_tap_them/repo/IRepoMyhome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss12/bai_tap_them/repo/RepoMyhome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss12/bai_tap_them/service/IServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss12/bai_tap_them/service/Services.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss12/bai_tap_them/until/FIlehelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss13/Bai1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss13/Bai2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss14/IllegalTriangleException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss15/DOC__FILE/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss15/DOC__FILE/DocFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss15/DOC__FILE/Tin.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss15/FILECOPY/FileCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss15/FILECOPY/TIn2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss15/FILECOPY/Tin.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss16/QuanLySanPham/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss16/QuanLySanPham/data/Product.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss16/QuanLySanPham/exception/NotFoundProductException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss16/QuanLySanPham/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss16/QuanLySanPham/services/IServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss16/QuanLySanPham/services/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss16/QuanLySanPham/ulti/FileHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss9/baitapthem1/Repo/IRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss9/baitapthem1/Repo/Repo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss9/baitapthem1/Services/IServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss9/baitapthem1/Services/Services.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss9/baitapthem1/exception/ExceptionStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../caseStudy/Model/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/../caseStudy/Model/Booking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../caseStudy/Model/Contract.java" beforeDir="false" afterPath="$PROJECT_DIR$/../caseStudy/Model/Contract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../caseStudy/Model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../caseStudy/Model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../caseStudy/Model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../caseStudy/Model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../caseStudy/Model/Facility.java" beforeDir="false" afterPath="$PROJECT_DIR$/../caseStudy/Model/Facility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../caseStudy/Model/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/../caseStudy/Model/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../caseStudy/Model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../caseStudy/Model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../caseStudy/Model/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/../caseStudy/Model/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../caseStudy/Model/Villa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../caseStudy/Model/Villa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../caseStudy/Services/BookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../caseStudy/Services/BookingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../caseStudy/Services/ContactService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../caseStudy/Services/ContactService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../caseStudy/Services/FacilityService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../caseStudy/Services/IcustomerServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../caseStudy/Services/IemploySevervice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../caseStudy/Services/Iservice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../caseStudy/controllers/FuramaControllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../caseStudy/controllers/FuramaControllers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jokecode1/Controller/CandiateManagementSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jokecode1/Controller/CandiateManagementSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jokecode1/Model/Candidates.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jokecode1/Model/Candidates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jokecode1/Model/Experience.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jokecode1/Model/Experience.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jokecode1/Model/Fresher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jokecode1/Model/Fresher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jokecode1/Model/Intern.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jokecode1/Model/Intern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jokecode1/Sevices/Services.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jokecode1/Sevices/Services.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jokecode1/Sevices/Servicesimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jokecode1/Sevices/Servicesimpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss10/ChuyenDoiHeNhiPhan.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss10/ChuyenDoiHeNhiPhan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss10/DaoNguoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss10/DaoNguoc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss10/DemSoLanXuatHienCuaMoiTuTrongMotChuoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss10/DemSoLanXuatHienCuaMoiTuTrongMotChuoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss10/KiemTraChuoiPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss10/KiemTraChuoiPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss10/KiemTraDauNgoac.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss10/KiemTraDauNgoac.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss11/ProductionManager/Controller/ProductsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss11/ProductionManager/Model/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss11/ProductionManager/Repository/IRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss11/ProductionManager/Repository/Repository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss11/ProductionManager/Services/IServicesProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss11/ProductionManager/Services/ServicesProducts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss5/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss5/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss5/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss5/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss5/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss5/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss6/bai1/bai2/Point2d.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss6/bai1/bai2/Point3d.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss6/bai1/bai2/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss6/bai1/circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss6/bai1/circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss6/bai1/cylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss6/bai1/cylinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss6/bai1/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss6/bai1/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss6/bai4/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss6/bai4/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss6/bai4/Triagle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss6/bai4/Triagle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss6/bai4/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss6/bai4/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss6/baitap3/Movablepoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss6/baitap3/Movablepoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss6/baitap3/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss6/baitap3/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss6/baitap3/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss6/baitap3/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss7/bai2/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss7/bai2/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss7/bai2/Colorable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss7/bai2/Colorable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss7/bai2/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss7/bai2/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss7/bai2/bai1/Resizeable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss7/bai2/bai1/Retacgle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss7/bai2/bai1/circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss7/bai2/bai1/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss7/bai2/bai1/shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss7/bai2/bai1/square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss7/bai2/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss7/bai2/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss7/bai3/Idate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss7/bai3/Idate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss7/bai3/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss7/bai3/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss7/bai3/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss7/bai3/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss7/bai3/goodStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss7/bai3/goodStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss8/TennisGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss8/TennisGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss9/bai1/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss9/bai1/MyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss9/bai1/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss9/bai1/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss9/baitapthem1/Controller/StudentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss9/baitapthem1/Controller/StudentManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss9/baitapthem1/Model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss9/baitapthem1/Model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss9/baitapthem1/Model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss9/baitapthem1/Model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss9/baitapthem1/Model/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss9/baitapthem1/Model/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss9/baitapthem2/Controller/VehicleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss9/baitapthem2/Controller/VehicleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss9/baitapthem2/Model/Oto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss9/baitapthem2/Model/Oto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss9/baitapthem2/Model/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss9/baitapthem2/Model/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss9/baitapthem2/Model/XeMay.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss9/baitapthem2/Model/XeMay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss9/baitapthem2/Model/XeTai.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss9/baitapthem2/Model/XeTai.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss9/baitapthem2/Repo/IVehicleData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss9/baitapthem2/Repo/IVehicleData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss9/baitapthem2/Repo/VehicleData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss9/baitapthem2/Repo/VehicleData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss9/baitapthem2/Services/IServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss9/baitapthem2/Services/IServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss9/baitapthem2/Services/ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss9/baitapthem2/Services/ServiceImpl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HD22L6Uehisd1IpMJxjsM0rmFQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "F:/CODEGYM/JSP_Servlet/quan_li_nhan_vien",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f6af92b0-7711-437a-a3f9-122e08bfc7de" name="Changes" comment="" />
+      <created>1667805125199</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667805125199</updated>
+      <workItem from="1667805126697" duration="197000" />
+      <workItem from="1667822583883" duration="13000" />
+      <workItem from="1668407246331" duration="82000" />
+      <workItem from="1668787299168" duration="39000" />
+      <workItem from="1669141600148" duration="12000" />
+      <workItem from="1669276978618" duration="54000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
